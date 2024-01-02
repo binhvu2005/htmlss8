@@ -1,0 +1,14 @@
+p {
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    transition: all 1s;
+    width: 300px;
+    background-color: grey;
+}
+
+p:hover {
+    
+    color: red;
+    margin-left: 40px;
+}

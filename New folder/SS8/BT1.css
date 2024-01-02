@@ -1,0 +1,9 @@
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div{
+    object-fit: contain;
+    background-color: rgb(202, 161, 240);
+    width: 260px;
+}

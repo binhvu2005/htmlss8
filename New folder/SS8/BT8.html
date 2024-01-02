@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+        .hTron{
+            position: absolute;
+            background-color:  rgb(189, 184, 184);
+            height: 100px;
+            width: 100px;
+            z-index: 20;
+            left: 600px;
+            top: 400px;
+            border-radius: 100%;
+            border: 15px solid white;
+            border-top: 15px solid black ;
+            animation-name: spin;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        } 
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        section{
+            position: relative;
+            z-index: -1;
+            text-align: center;
+            height: 1000px;
+            width: 100%;
+            background-color: rgb(189, 184, 184);
+        }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="hTron"></div>
+    </section>
+  </body>
+</html>

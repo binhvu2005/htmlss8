@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B7</title>
+    <style>
+      p {
+        width: 100%;
+        position: absolute;
+        color: green;
+        font-size: 30px;
+        font-weight: 700;
+        animation-name: text;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+      div {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: rgb(197, 197, 197);
+        padding: 7px;
+        margin-top: 10px;
+        height: 100px;
+      }
+      @keyframes text {
+        from {
+          left: 0%;
+        }
+
+        to {
+          left: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+  </body>
+</html>
